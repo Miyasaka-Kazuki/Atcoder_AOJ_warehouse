@@ -1,11 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # ・C - Buy an Integer
-
-# In[26]:
-
-
 left = 0
 right = 10 ** 9 + 1
 a, b, x = map(int, input().split())

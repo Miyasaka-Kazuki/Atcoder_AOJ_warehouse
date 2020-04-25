@@ -1,11 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # ・A - Circle
-
-# In[3]:
-
-
 PI = 3
 base_area = 1 * 1 * PI
 
@@ -16,10 +9,6 @@ print(int(ans_area / base_area))
 
 
 # ・B - Echo
-
-# In[23]:
-
-
 def isEcho(N, S):
     if N % 2 != 0: # 偶数じゃなければ
         return False
@@ -40,10 +29,6 @@ else:
 
 
 # ・C - Average Length
-
-# In[22]:
-
-
 from itertools import permutations
 from math import sqrt, pow, factorial
 
@@ -66,10 +51,3 @@ for order in permutations(range(N)): # 経路全探索
     
 ans /= factorial(N)
 print(ans)
-
-
-# In[ ]:
-
-
-
-
