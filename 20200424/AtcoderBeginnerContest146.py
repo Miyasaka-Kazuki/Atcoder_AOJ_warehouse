@@ -29,11 +29,3 @@ for i, char in enumerate(string):
     
 print(''.join(string))
 
-
-# ・C - Buy an Integer
-
-# In[ ]:
-
-
-
-
